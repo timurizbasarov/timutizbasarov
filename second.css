@@ -3,3 +3,29 @@ p{
     padding-top: 20%;
     font-size: 30px;
 }
+@media screen and (max-width: 980px) {
+    .main {
+       width: 95%;
+    }
+    .main .about {
+       width: 70%;
+       padding: 3% 4%;
+    }
+    .links a{
+       font-size: 10px;
+       width: 60%;
+    }
+    .links{
+        width: 90%;
+        margin-left:5%;
+    }
+    .photos{
+        margin-top: 2rem;
+        width: 55%;
+    }
+ }
+
+ #btn{
+    margin-left: 200px;
+    background-color: aqua;
+ }
